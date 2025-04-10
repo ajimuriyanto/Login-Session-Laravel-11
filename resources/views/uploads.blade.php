@@ -29,7 +29,7 @@
 					<!--end::Card title-->
 					
 					<!--begin::Card toolbar-->
-					<div class="card-toolbar" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="hover" title="Tambah User">
+					<div class="card-toolbar" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="hover" title="Upload File">
 						<!--begin::Add customer-->
 						<a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#addMyModal">
 							<span class="svg-icon svg-icon-3">
@@ -37,7 +37,7 @@
 									<rect opacity="0.5" x="11.364" y="20.364" width="16" height="2" rx="1" transform="rotate(-90 11.364 20.364)" fill="black" />
 									<rect x="4.36396" y="11.364" width="16" height="2" rx="1" fill="black" />
 								</svg>
-							</span>Add User
+							</span>Upload File
 						</a>						
 						<!--end::Add customer-->
 					</div>
