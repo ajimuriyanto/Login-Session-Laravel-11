@@ -72,7 +72,7 @@
   <div class="modal-dialog modal-dialog-centered mw-650px">
     <div class="modal-content">
 		<div class="modal-header">
-				<h2>FORM INPUT USER</h2>
+				<h2>FORM Upload File</h2>
 				<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal" onclick="myFunction()">
 					<span class="svg-icon svg-icon-1">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -86,30 +86,15 @@
       	<div class="modal-body">			
 			<form id="kt_docs_formvalidation" class="form" method="post" action="admin/executor" autocomplete="off">
 				<div class="mb-2 fv-row">
-					<label class="fs-6 fw-bold form-label mb-0"><span class="required">Nama</span></label>
+					<label class="fs-6 fw-bold form-label mb-0"><span class="required">Nama File</span></label>
 					<input type="text" class="form-control form-control-solid form-control-sm" name="nama" autocomplete="off"/>
 					<input type="hidden" class="form-control form-control-solid form-control-sm" name="password" value="admin"/>								
 				</div>
 
 				<div class="mb-2 fv-row">
-					<label class="fs-6 fw-bold form-label mb-0"><span class="required">Username</span></label>
-					<input type="text" class="form-control form-control-solid form-control-sm" name="username" autocomplete="off"/>
-				</div>
-				<div class="fv-row mb-2">
-					<label class="fs-6 fw-bold form-label mb-0"><span class="required">Operator</span></label>
-					<select class="form-select form-select-solid form-select-sm" name="id_group" id="operator" data-control="select2" data-hide-search="true">
-						<option value="">Pilih</option>
-						
-					</select>
-				</div>
-				
-				<div id="addForm" class="mb-2 fv-row" >
-                    <label class="fs-6 fw-bold form-label mb-0"><span class="required">Program Studi</span></label>
-                    <select class="form-select form-select-solid codeprodi" data-control="select2" name="kode_prodi" data-hide-search="true"/>
-                        <option value="">Pilih</option>
-						
-    				</select>											
-                </div>
+					<label class="fs-6 fw-bold form-label mb-0"><span class="required">File</span></label>
+					<input type="file" class="form-control form-control-solid form-control-sm" name="username" autocomplete="off"/>
+				</div>				
 
 				<div class="text-center pt-5">
 					<button type="reset" data-bs-dismiss="modal" class="btn btn-light me-3">Cancel</button>
