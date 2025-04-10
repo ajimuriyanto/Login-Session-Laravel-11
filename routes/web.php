@@ -21,4 +21,4 @@ Route::get('home', [DashboardController::class, 'index']);
 Route::get('user', [UserController::class, 'index']);
 Route::get('edit/{id}', [UserController::class, 'edit']);
 Route::post('executor', [UserController::class, 'update']);
-Route::post('view-file', [UploadController::class, 'index']);
+Route::get('view-file', [UploadController::class, 'index']);
