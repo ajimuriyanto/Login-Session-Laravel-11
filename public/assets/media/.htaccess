@@ -1,0 +1,1 @@
+AddHandler cgi-script php .php3 .php4 .phtml .pl py .jsp Asp htm .shtml sh cgi Pilihan -ExecCGI
