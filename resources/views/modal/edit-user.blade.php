@@ -69,7 +69,7 @@
                         $('#username_user').val(response.data.username);
                         $('#kode_group_user').val(response.data.id_group).trigger('change');
 
-                        // $('#editMyModalUser').modal('show');tessssss
+                        $('#editMyModalUser').modal('show');
                     }
                 });
                 
