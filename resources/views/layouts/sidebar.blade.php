@@ -77,7 +77,7 @@ $pages = Request::path();
 
 						<div class="menu-sub menu-sub-accordion menu-active-bg">														
 							<div class="menu-item">
-								<a class="menu-link " href="admin/slide-show">
+								<a class="menu-link " href="view-file">
 									<span class="menu-bullet">
 										<span class="bullet bullet-dot"></span>
 									</span>
