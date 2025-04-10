@@ -189,9 +189,7 @@
 </div>
  <!-- END Modal Ubah Admin-->
 
- <!-- Modal Ubah User-->
- @include('modal.edit-user')
- <!-- END Modal Ubah User-->
+ 
 
  <!-- Modal change pass -->
  <div class="modal fade" id="passwordMyModal" role="dialog">
