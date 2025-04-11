@@ -99,7 +99,7 @@
 				<div class="text-center pt-5">
 					<button type="reset" data-bs-dismiss="modal" class="btn btn-light me-3">Cancel</button>
 					<button id="kt_docs_formvalidation_submit" type="submit" class="btn btn-primary">
-						<span class="indicator-label">Simpan</span>
+						<span class="indicator-label">Simpan sdsd</span>
 						<span class="indicator-progress">
 							Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
 						</span>
